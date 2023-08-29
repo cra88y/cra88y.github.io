@@ -1,201 +1,217 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Cameron Abbott</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-	<link rel="icon" type="image/png" href="assets/favicon.ico">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Cameron Abbott</title>
 </head>
 
-<body class="is-preload">
-	<div id="wrapper">
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://cra88y.github.io/" class="link">CA.</a>
+    </h3>
 
-		<header id="header" class="alt">
-			<h1 style="font-size: 4rem;">
-				<bold>Cameron Abbott</bold>
-			</h1>
-			<p>Full Stack Software Engineer
-			</p>
-		</header>
-		<nav id="nav">
-			<ul>
-				<li><a href="#intro" class="active">Introduction</a></li>
-				<li><a href="#first">Technologies</a></li>
-				<li><a href="#second">Projects</a></li>
-			</ul>
-		</nav>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
 
-		<div id="main">
-			<section id="intro" class="main">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>Introduction</h2>
-						</header>
-						<p>Welcome to my portfolio! I'm Cameron, a full-stack developer with experience in JavaScript, Python, React, GraphQL and more. I have a passion for solving complex problems and creating intuitive, hardened, and scalable web applications. My background in running a gaming community and leading a team taught me the importance of user experience, problem-solving, strong leadership and hard work. I recently graduated from App Academy, a selective full-stack software development bootcamp, and I am now seeking opportunities to apply my skills in a dynamic and innovative company. In my free time, I enjoy experimenting with digital music production as a means of creative expression. On this website, you'll find my work and experience. Feel free to take a look around and don't hesitate to reach out if you have any questions or inquiries.
-						</p>
-						<ul class="actions">
-							<li><a href="assets/resume.pdf" target="_blank" class="button">Resume</a></li>
-						</ul>
-					</div>
-					<span class="image"><img src="./assets/1571685959244.jpg" alt="" /></span>
-				</div>
-			</section>
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
 
-			<section id="first" class="main special">
-				<header class="major">
-					<h2>Technologies</h2>
-				</header>
-				<div class="technologies"><i class="tech__icon devicon-javascript-plain colored"></i><i
-						class="tech__icon devicon-python-plain-wordmark colored"></i><i
-						class="tech__icon devicon-html5-plain-wordmark colored"></i><i
-						class="tech__icon devicon-css3-plain-wordmark colored"></i><i
-						class="tech__icon devicon-react-original-wordmark colored"></i><i
-						class="tech__icon devicon-redux-plain colored"></i><i
-						class="tech__icon devicon-postgresql-plain-wordmark colored"></i><i
-						class="tech__icon devicon-docker-plain-wordmark colored"></i><i
-						class="tech__icon devicon-sequelize-plain-wordmark" style="color: rgb(255, 255, 255);"></i><i
-						class="tech__icon devicon-express-original-wordmark" style="color: rgb(255, 255, 255);"></i><i
-						class="tech__icon devicon-nodejs-plain colored"></i><i
-						class="devicon-firebase-plain-wordmark colored"></i><i class="devicon-sqlalchemy-original-wordmark"></i><i
-						class="tech__icon devicon-flask-original-wordmark" style="color: rgb(255, 255, 255);"></i><i
-						class="tech__icon devicon-heroku-plain-wordmark colored"></i><i
-						class="tech__icon devicon-git-plain-wordmark colored"></i><i
-						class="tech__icon devicon-socketio-original"></i><i class="tech__icon devicon-linux-plain"></i><i
-						class="devicon-github-original-wordmark"></i><i class="devicon-unity-original-wordmark"></i>
-				</div>
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
 
-			</section>
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">Cameron Abbott.</span></h1>
+      <h2 class="about__role">Full-Stack Developer.</h2>
+      <p class="about__desc">
+        Welcome to my portfolio! I'm Cameron, a full-stack developer with over five years self-taught programming
+        experience. I have a passion for solving complex problems and creating intuitive, scalable, & secure
+        apps. My background in founding a gaming community and leading a global team taught me the importance of user
+        experience, problem-solving, communication, leadership and hard work. I recently graduated from App Academy, a
+        selective
+        full-stack software development bootcamp, and I am now seeking opportunities to apply my skills in a dynamic and
+        innovative company. In my free time, I enjoy experimenting with electronic production as a means of creative
+        expression. On this website, you'll find some of my work and experience. Feel free to take a look around and
+        don't
+        hesitate to reach out if you have any questions or inquiries.</p>
 
-			<section id="second" class="main special">
-				<header class="major">
-					<h2>Projects</h2>
-					<div>Several neat things I've worked on.
-						<div>Warning: Some of the live site links may take up to 30 seconds to load due to hosting, but
-							screenshots are availible via the GitHub link.</div>
-					</div>
+      <div class="about__contact center">
+        <a href="https://cra88y.github.io/assets/resume.pdf">
+          <span class="btn btn--outline">Resume</span>
+        </a>
 
-				</header>
-				<div style="display:flex;flex-wrap:wrap;width:100%;">
-					<div class="project-container">
-						<h2>Unicord</h2>
-						<img class="project-pic"
-							src="https://user-images.githubusercontent.com/22042885/156049091-21f19242-db69-43a6-9719-45f4679382c8.png" />
-						<div>
-							<div>Unicord is a one page web application built to clone the appearance and basic
-								functionality
-								of Discord. Built on a React/Flask stack, Unicord uses
-								SQLAlchemy for relational database management and SocketIO for live chat rooms that
-								include
-								the ability to update and delete messages in real time.
-							</div>
-							<div>[ <a class="project-link" href="https://github.com/cra88y/unicord" target="_blank">GITHUB</a> | <a
-									class="project-link" href="https://unicord.herokuapp.com/" target="_blank">LIVE SITE</a> ]
-							</div>
-						</div>
-					</div>
-					<div class="project-container">
-						<h2>InfiniNote</h2>
-						<img class="project-pic"
-							src="https://raw.githubusercontent.com/cra88y/infininote/main/info/application3.png" />
-						<div>
-							<div>InfiniNote is a minimalist take on Evernote. It features note taking with
-								autosave, the option to organize notes into notebooks, and full managment of existing
-								notes.
-								InfiniNote was built using a React/Express stack.
-								I used React with Redux in order to manage a global state that powers responsive and
-								intuitive fully styled React components.
-							</div>
-							<div>[ <a class="project-link" href="https://github.com/cra88y/infininote" target="_blank">GITHUB</a> | <a
-									class="project-link" href="https://infininote.herokuapp.com/" target="_blank">LIVE
-									SITE</a> ]
-							</div>
-						</div>
-					</div>
-					<div class="project-container">
-						<h2>Planstagram</h2>
-						<img class="project-pic"
-							src="https://user-images.githubusercontent.com/22042885/156962076-1d1540bc-80ee-4b20-9ebf-44bf949c7515.png" />
-						<div>
-							<div>Plantstagram is website intended to clone the core functionality of Instagram. It is a
-								social
-								networking platform that allows users to create secure accounts to then post pictures,
-								view
-								a feed of posts from users they're following, as well as comment & like picutres across
-								the
-								site.</div>
-							<div>[ <a class="project-link" href="https://github.com/MeiMeiYS/plantstagram" target="_blank">GITHUB</a>
-								| <a class="project-link" href="https://plantstagram-app.herokuapp.com/" target="_blank">LIVE
-									SITE</a> ]
-							</div>
-						</div>
-					</div>
-					<div class="project-container">
-						<h2>Knick Knack Overflow</h2>
-						<img class="project-pic"
-							src="https://user-images.githubusercontent.com/22042885/156962809-0c44b4f2-c38f-4fd9-9090-0e4057777fb6.png" />
-						<div>
-							<div>Knick Knack Overflow is created to emulate the basic functionality of stack
-								overflow. Users
-								can sign up then post, answer, and vote on questions. It uses an Express backend and Pug
-								as
-								the templating engine to create a responsive user experience using only vanilla
-								JavaScript.
-							</div>
-							<div>[ <a class="project-link" href="https://github.com/cra88y/knick-knack-overflow/"
-									target="_blank">GITHUB</a> | <a class="project-link" href="https://knackerflow.herokuapp.com/"
-									target="_blank">LIVE SITE</a> ]
-							</div>
-						</div>
-					</div>
+        <a href="https://github.com/cra88y" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
 
-				</div>
-			</section>
-		</div>
+        <a href="https://linkedin.com/in/camer0n" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
 
-		<footer id="footer">
-			<section>
-				<h1 style="text-align:center;">Get in touch with me for opportunities or questions!</h2>
-					<div style="display:flex;align-items: center;flex-direction: column;padding-bottom: 2em;">
-						<div style="font-size:2rem;color:white;">Email</div>
-						<div><a style="font-size:1.75rem;color:white;" href=" mailto:cam@loudstyle.com">cam@loudstyle.com</a></div>
-					</div>
-					<ul style="display:flex;justify-content: center;" class="icons">
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
 
-						<li><a href="https://github.com/cra88y" class="icon brands fa-github alt fa-2x" target="_blank"><span
-									class="label">GitHub</span></a></li>
-						<li><a href="https://www.linkedin.com/in/camer0n/" class="icon brands fa-linkedin alt fa-2x"
-								target="_blank"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://angel.co/u/camer0n" class="icon brands fa-angellist alt fa-2x" target="_blank"><span
-									class="label">AngelList</span></a></li>
-					</ul>
-					<div style="text-align: center;" class="copyright">&copy;2022 Cameron Abbott | Design:
-						<a href="https://html5up.net">HTML5 UP</a>
-					</div>
-			</section>
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Unicord</h3>
+          <p class="project__description">
+            Unicord is a one page web application built to clone the appearance and basic functionality of Discord.
+            Built on a React/Flask stack, Unicord uses SQLAlchemy for relational database management and web sockets for
+            live chat rooms that include the ability to update and delete messages in real time.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">Web Sockets</li>
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Flask</li>
+          </ul>
 
-		</footer>
+          <a href="https://github.com/cra88y/unicord" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://unicord.onrender.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
 
-	</div>
+        <div class="project">
+          <h3>Virtual Vanity</h3>
+          <p class="project__description">
+            https://devpost.com/software/virtual-vanity
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">React Native</li>
+            <li class="project__stack-item">MongoDB</li>
+            <li class="project__stack-item">GraphQL</li>
+            <li class="project__stack-item">ExpoGo</li>
+          </ul>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+          <a href="https://github.com/ramziosta/ELC-Devpost-Hackathon" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
 
+        <div class="project">
+          <h3>InfiniNote</h3>
+          <p class="project__description">
+            InfiniNote is a minimalist take on Evernote. It features note taking with autosave, the option to organize
+            notes into notebooks, and full managment of existing notes. InfiniNote was built using a React/Express
+            stack. I used React with Redux in order to manage a global state that powers responsive and intuitive fully
+            styled React components.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">Express</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com/cra88y/infininote" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://infininote.herokuapp.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        <div class="project">
+          <h3>Plantstagram</h3>
+          <p class="project__description">
+            Plantstagram is website intended to clone the core functionality of Instagram. It is a social networking
+            platform that allows users to create secure accounts to then post pictures, view a feed of posts from users
+            they're following, as well as comment & like picutres across the site.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Flask</li>
+            <li class="project__stack-item">GCP</li>
+          </ul>
+
+          <a href="https://github.com/MeiMeiYS/plantstagram/" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">SCSS</li>
+        <li class="skills__list-item btn btn--plain">Go</li>
+        <li class="skills__list-item btn btn--plain">Python</li>
+        <li class="skills__list-item btn btn--plain">C#</li>
+        <li class="skills__list-item btn btn--plain">C++</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">TypeScript</li>
+        <li class="skills__list-item btn btn--plain">React</li>
+        <li class="skills__list-item btn btn--plain">Redux</li>
+        <li class="skills__list-item btn btn--plain">Node</li>
+        <li class="skills__list-item btn btn--plain">GraphQL</li>
+        <li class="skills__list-item btn btn--plain">Relational Databases</li>
+        <li class="skills__list-item btn btn--plain">NoSQL</li>
+        <li class="skills__list-item btn btn--plain">ORMs</li>
+        <li class="skills__list-item btn btn--plain">Web Sockets</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">Jest</li>
+        <li class="skills__list-item btn btn--plain">CI/CD</li>
+        <li class="skills__list-item btn btn--plain">REST</li>
+        <li class="skills__list-item btn btn--plain">Blockchain</li>
+        <li class="skills__list-item btn btn--plain">AI Language Models</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:cam@loudstyle.com">
+        <span class="btn btn--outline">Send Me an Email!</span>
+      </a>
+    </section>
+    <br>
+    <br>
+  </main>
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
